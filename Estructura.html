@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Box Model</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            padding: 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            border-bottom: 2px solid #388E3C;
+        }
+
+        main {
+            padding: 20px;
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            margin-top: 10px;
+        }
+
+        .box {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #f0f0f0;
+        }
+
+        footer {
+            padding: 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            border-top: 2px solid #388E3C;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Mi Sitio Web</h1>
+        </header>
+        <main>
+            <div class="box">
+                <h2>Sección 1</h2>
+                <p>Este es un párrafo en la sección 1. Utiliza el modelo de caja para el diseño.</p>
+            </div>
+            <div class="box">
+                <h2>Sección 2</h2>
+                <p>Este es un párrafo en la sección 2. Utiliza el modelo de caja para el diseño.</p>
+            </div>
+            <div class="box">
+                <h2>Sección 3</h2>
+                <p>Este es un párrafo en la sección 3. Utiliza el modelo de caja para el diseño.</p>
+            </div>
+        </main>
+        <footer>
+            <p>Pie de página</p>
+        </footer>
+    </div>
+</body>
+</html>
